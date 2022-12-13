@@ -1,0 +1,36 @@
+/*
+line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration 
+ */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+.one {
+    line-height: 0.5em;
+}
+
+.two {
+    letter-spacing: 5px;
+    text-decoration: overline;
+    line-height: 2rem;
+}
+
+.three {
+    word-spacing: 20px;
+    text-decoration: underline;
+}
