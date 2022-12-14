@@ -1,28 +1,22 @@
 /*
-offline
-offset
+Default Display Property
+
+Block : Always start a new line and takes full width
+Inline : Does not start and only up as much as content space
 */
 
-.button {
-    margin: 3rem;
+body {
+    text-align: center;
 }
 
-a {
-    background: #689f3f;
-    text-decoration: none;
-    padding: 1.2rem 1.5rem;
-    color: black;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: 0 20px;
+.block {
+    background: blue;
+    color: white;
+    width: 150px;
+    margin: 20px auto;
 }
 
-#one {
-    border: 0.2rem solid #222;
-}
-
-#two {
-    outline: 0.2rem solid #222;
-    outline-offset: 10px;
-    outline-offset: -10px;
+.inline {
+    background: red;
+    color: white;
 }
