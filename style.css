@@ -1,22 +1,14 @@
 /*
-Default Display Property
-
-Block : Always start a new line and takes full width
-Inline : Does not start and only up as much as content space
+Block: Top Bottom Margin Respected
+Inline:  Top Bottom Margin Not Respected
+Mobile Navbar
+List-Style-Type: property
+descendant selectors
 */
 
-body {
-    text-align: center;
-}
-
-.block {
+div {
     background: blue;
     color: white;
-    width: 150px;
-    margin: 20px auto;
-}
-
-.inline {
-    background: red;
-    color: white;
+    padding: 20px;
+    margin: 20px;
 }
