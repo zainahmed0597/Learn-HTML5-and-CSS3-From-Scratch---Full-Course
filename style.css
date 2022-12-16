@@ -1,44 +1,43 @@
 /* 
-background-attachment
-*/
+say some think
+ */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+/* 
+body {
+    display: flex;
+} */
 
 div {
-    min-height: 100vh;
-    color: green;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
 }
 
-.big-img {
-    background: url("./assets/images/big_img.jpg ");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+.one {
+    background: linear-gradient(red, green);
 }
 
-.small-img {
-    border: 2px solid green;
-    background: url("./assets/images/Img1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+.two {
+    background: linear-gradient(to top, red, green, blue);
 }
 
-.folder-img {
-    background: url("./assets/images/big_img.jpg ");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+.three {
+    background: linear-gradient(315deg, yellow, green);
+}
+
+.four {
+    background: linear-gradient(to top left, purple, green);
+}
+
+.five {
+    background: linear-gradient(to top right, white, green);
+}
+
+.six {
+    background: linear-gradient(rgba(235, 207, 29, 0.519), rgba(73, 136, 200, 0.662));
+}
+
+.seven {
+    background: linear-gradient(to left, rgba(29, 235, 60, 0.519), rgba(12, 117, 223, 0.662));
 }
