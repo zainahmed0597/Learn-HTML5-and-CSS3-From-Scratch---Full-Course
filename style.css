@@ -7,7 +7,10 @@ z-index
  */
 
 
-/* position relative */
+/* position absolute */
+
+
+/* if you want to use "absolute" postion then first parrent should be "relative" position and then child should be "absolute" position */
 
 div {
     border: 3px solid red;
@@ -18,18 +21,17 @@ div {
 
 .one {
     background: yellow;
-    position: relative;
-    /* top: 50px; */
-    /* left: 20rem; */
-    right: 50%;
-    bottom: 20px;
 }
 
 .two {
     background: orange;
+    position: relative;
 }
 
 .special {
     background: lightseagreen;
     font-size: 20px;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
 }
