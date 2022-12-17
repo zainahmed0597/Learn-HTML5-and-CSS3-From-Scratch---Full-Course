@@ -1,45 +1,27 @@
 /* 
-say some think
+float, clear
+position: static, relative, absolute, fixed
+media-queries
+z-index
+::before and ::after pseudo elements
  */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-div {
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 60px;
-    color: orange;
-}
-
 .banner {
-    background: url("./assets/images/big_img.jpg ");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    border: 2px solid red;
+    padding: 10px;
+    overflow: hidden;
 }
 
-.header {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/big_img.jpg") center/cover fixed no-repeat;
+.one {
+    float: right;
 }
 
-.colorzilla {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cb60b3+0,c146a1+50,a80077+51,db36a4+100;Pink+Gloss */
-    background: rgb(203, 96, 179);
-    /* Old browsers */
-    background: -moz-linear-gradient(top, rgb(203, 96, 179) 0%, rgb(193, 70, 161) 50%, rgb(168, 0, 119) 51%, rgb(219, 54, 164) 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgb(203, 96, 179) 0%, rgb(193, 70, 161) 50%, rgb(168, 0, 119) 51%, rgb(219, 54, 164) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgb(203, 96, 179) 0%, rgb(193, 70, 161) 50%, rgb(168, 0, 119) 51%, rgb(219, 54, 164) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=0);
-    /* IE6-9 */
+.two {
+    float: left;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+p {
+    clear: both;
 }
