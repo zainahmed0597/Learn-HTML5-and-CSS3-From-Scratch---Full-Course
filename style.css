@@ -6,30 +6,30 @@ z-index
 ::before and ::after pseudo elements
  */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+/* position relative */
 
 div {
-    float: left;
-    height: 200px;
-    width: 33.33%;
+    border: 3px solid red;
+    background: yellowgreen;
+    margin-top: 40px;
+    position: static;
 }
 
 .one {
-    background: red;
+    background: yellow;
+    position: relative;
+    /* top: 50px; */
+    /* left: 20rem; */
+    right: 50%;
+    bottom: 20px;
 }
 
 .two {
-    background: yellow;
+    background: orange;
 }
 
-.three {
-    background: green;
-}
-
-h1 {
-    clear: both;
+.special {
+    background: lightseagreen;
+    font-size: 20px;
 }
