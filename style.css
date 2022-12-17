@@ -1,47 +1,52 @@
-/* /* 
-float, clear
-position: static, relative, absolute, fixed
-media-queries
-z-index
-::before and ::after pseudo elements
+/* 
+Media Queries
+Responsive Design
+Style Element On Different Screen Sizes
+min-width: --- starting form
+max-width: --- up to
+Mobile First
  */
 
-
-/* position fixed */
-
-
-/* branch cp_19 */
-
-div {
-    border: 3px solid red;
-    background: yellowgreen;
-    margin-top: 40px;
-    position: static;
-}
-
-.one {
+body {
     background: yellow;
 }
 
-.two {
-    background: orange;
-    position: relative;
+.banner {
+    background: blue;
 }
 
-.special {
-    background: lightseagreen;
-    font-size: 20px;
-    position: absolute;
-    bottom: 50%;
-    right: 50%;
-}
-
-button {
-    background: purple;
+h1 {
     color: white;
-    font-size: 40px;
-    border: 2px solid greenyellow;
-    position: fixed;
-    top: 0;
-    right: 0;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:576px) {
+    body {
+        background: red;
+    }
+    .banner {
+        background: yellow;
+        border-radius: 20px;
+    }
+    h1 {
+        color: black;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background: green;
+    }
+    .banner {
+        background: blue;
+    }
+    h1 {
+        color: black;
+        font-size: 60px;
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }
