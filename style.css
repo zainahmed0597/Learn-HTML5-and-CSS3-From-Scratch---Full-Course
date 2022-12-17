@@ -1,4 +1,4 @@
-/* 
+/* /* 
 float, clear
 position: static, relative, absolute, fixed
 media-queries
@@ -7,10 +7,10 @@ z-index
  */
 
 
-/* position absolute */
+/* position fixed */
 
 
-/* if you want to use "absolute" postion then first parrent should be "relative" position and then child should be "absolute" position */
+/* branch cp_19 */
 
 div {
     border: 3px solid red;
@@ -34,4 +34,14 @@ div {
     position: absolute;
     bottom: 50%;
     right: 50%;
+}
+
+button {
+    background: purple;
+    color: white;
+    font-size: 40px;
+    border: 2px solid greenyellow;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
