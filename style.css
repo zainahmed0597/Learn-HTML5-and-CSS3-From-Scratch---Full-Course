@@ -2,42 +2,44 @@
 say some think
  */
 
-
-/* 
-body {
-    display: flex;
-} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 div {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: orange;
 }
 
-.one {
-    background: linear-gradient(red, green);
+.banner {
+    background: url("./assets/images/big_img.jpg ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-.two {
-    background: linear-gradient(to top, red, green, blue);
+.header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/big_img.jpg") center/cover fixed no-repeat;
 }
 
-.three {
-    background: linear-gradient(315deg, yellow, green);
-}
-
-.four {
-    background: linear-gradient(to top left, purple, green);
-}
-
-.five {
-    background: linear-gradient(to top right, white, green);
-}
-
-.six {
-    background: linear-gradient(rgba(235, 207, 29, 0.519), rgba(73, 136, 200, 0.662));
-}
-
-.seven {
-    background: linear-gradient(to left, rgba(29, 235, 60, 0.519), rgba(12, 117, 223, 0.662));
+.colorzilla {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cb60b3+0,c146a1+50,a80077+51,db36a4+100;Pink+Gloss */
+    background: rgb(203, 96, 179);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgb(203, 96, 179) 0%, rgb(193, 70, 161) 50%, rgb(168, 0, 119) 51%, rgb(219, 54, 164) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(203, 96, 179) 0%, rgb(193, 70, 161) 50%, rgb(168, 0, 119) 51%, rgb(219, 54, 164) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(203, 96, 179) 0%, rgb(193, 70, 161) 50%, rgb(168, 0, 119) 51%, rgb(219, 54, 164) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=0);
+    /* IE6-9 */
 }
